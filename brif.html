@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<html class="page" Flang="ru">
+
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="format-detection" content="telephone=no">
+<title></title>
+
+<link rel="preload" href="/fonts/opensans.woff2" as="font" crossorigin>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+<link href="css/nouislider.min.css" rel="stylesheet">
+<link href="css/justifiedGallery.min.css" rel="stylesheet">
+<link rel="stylesheet" href="css/twentytwenty.css" media="screen" />
+<link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body class="page__body">
+
+
+  <header class='page-header'>
+  <div class="page-header__wrapper container">
+    <div class='menu js-menu'>
+      <button data-menu="main-menu" class='menu__burger burger button button--green js-burger js-menu__button'
+        type="button" aria-label='Открыть меню'>
+        <span class="burger__inside-wrapper">
+          <svg aria-hidden="true" width="36" height="12">
+            <use class="burger__menu" href="img/sprite.svg#burger"></use>
+            <use class="burger__active" href="img/sprite.svg#close"></use>
+          </svg>
+
+          <div class="button__arrow-circle">
+  <svg class="button__arrow-circle--arrow"aria-hidden="true" width='43' height='16'>
+    <use href="img/sprite.svg#long-arrow"></use>
+  </svg>
+  <svg class="button__arrow-circle--circle"  aria-hidden="true" width='39' height='40'>
+    <use href="img/sprite.svg#circle"></use>
+  </svg>
+</div>
+
+        </span>
+      </button>
+      <div class='menu__nav js-menu__wrapper visually-hidden'>
+        <nav class="nav">
+          <div class="nav__wrapper">
+            <div data-menu="main-menu" class="nav__sub-wrapper js-menu__nav visually-hidden">
+              <div class='nav__list-wrapper'>
+  <p class='nav__bck-title'>Меню</p>
+
+
+    <ul class='nav__list'>
+      <li class='nav__item'>
+        <a class="nav__link js-menu__button" data-menu='sub-menu__1' href=''>Услуги и цены</a>
+      </li>
+      <li class='nav__item'>
+        <a class="nav__link js-menu__button" data-menu='sub-menu__2' href=''>Дополнительные услуги</a>
+      </li>
+
+      <li class='nav__item'>
+        <a class="nav__link" href=''>Портфолио</a>
+      </li>
+
+      <li class='nav__item'>
+        <a class="nav__link" href=''>Статьи</a>
+      </li>
+
+      <li class='nav__item'>
+        <a class="nav__link" href=''>Контакты</a>
+      </li>
+
+      <li class='nav__item'>
+        <a class="nav__link" href=''>Заполнить бриф</a>
+      </li>
+    </ul>
+
+</div>
+
+<div class='sub-nav__img nav__img'>
+  <picture>
+    <source media='(min-width: 960px)' srcset='/img/nav-menu/menu1.jpg, /img/nav-menu/menu1@2x.jpg x2'>
+    <source media='(min-width: 660px)' srcset='/img/nav-menu/menu1.jpg 1x, /img/nav-menu/menu1@2x.jpg x2'>
+    <img src='/img/nav-menu/menu1.jpg' srcset='/img/nav-menu/menu1@2x.jpg 2x' alt=''>
+  </picture>
+</div>
+
+            </div>
+
+            <div data-menu='sub-menu__1' class="nav__sub-wrapper nav__sub-wrapper--1 js-menu__nav visually-hidden">
+              <div class='nav__list-wrapper nav__list-wrapper--sub'>
+  <p class='nav__bck-title'>Услуги</p>
+  <p class='nav__title'>Услуги и цены</p>
+
+  <div class="nav__list-sub-wrapper">
+    <ul class='nav__list nav__list--sub'>
+       <li class='nav__item'>
+        <a class="nav__link" href=''>Фотосессии</a>
+        </li>
+         <li class='nav__item'>
+        <a class="nav__link" href=''>Видеосъемка</a>
+        </li>
+         <li class='nav__item'>
+        <a class="nav__link" href=''>Флорист</a>
+        </li>
+         <li class='nav__item'>
+        <a class="nav__link" href=''>Диджей</a>
+        </li>
+         <li class='nav__item'>
+        <a class="nav__link" href=''>Ведущий</a>
+        </li>
+        
+    </ul>
+    
+    <ul class='nav__list nav__list--sub'>
+       <li class='nav__item'>
+        <a class="nav__link" href=''>Наращивание ресниц</a>
+        </li>
+         <li class='nav__item'>
+        <a class="nav__link" href=''>Ногтевой сервис</a>
+        </li>
+         <li class='nav__item'>
+        <a class="nav__link" href=''>Визажист</a>
+        </li>
+         <li class='nav__item'>
+        <a class="nav__link" href=''>Прокат одежды</a>
+        </li>
+         <li class='nav__item'>
+        <a class="nav__link" href=''>Организатор</a>
+        </li>
+        
+    </ul>
+    
+  </div>
+</div>
+
+<div class='sub-nav__img nav__img'>
+  <picture>
+    <source media='(max-width: 960px)' srcset='/img/nav-menu/menu2.jpg, /img/nav-menu/menu2@2x.jpg x2'>
+    <source media='(max-width: 1366px)' srcset='/img/nav-menu/menu2-1024.jpg, /img/nav-menu/menu2-1024@2x.jpg x2'>
+    <source media='(max-width: 1920px)' srcset='/img/nav-menu/menu2-1366.jpg 1x, /img/nav-menu/menu2-1366@2x.jpg x2'>
+    <img src='/img/nav-menu/menu2.jpg' srcset='/img/nav-menu/menu2@2x.jpg 2x' alt=''>
+  </picture>
+</div>
+
+            </div>
+
+            <div data-menu='sub-menu__2' class="nav__sub-wrapper nav__sub-wrapper--2 js-menu__nav visually-hidden">
+              <div class='nav__list-wrapper nav__list-wrapper--sub'>
+  <p class='nav__bck-title'>Дополн</p>
+  <p class='nav__title'>Дополнительные услуги</p>
+
+  <div class="nav__list-sub-wrapper">
+    <ul class='nav__list nav__list--sub'>
+       <li class='nav__item'>
+        <a class="nav__link" href=''>Цвето- и светокоррекция</a>
+        </li>
+         <li class='nav__item'>
+        <a class="nav__link" href=''>Ретушь фотографий</a>
+        </li>
+        
+    </ul>
+    
+    <ul class='nav__list nav__list--sub'>
+       <li class='nav__item'>
+        <a class="nav__link" href=''>Изготовление фотокниги</a>
+        </li>
+         <li class='nav__item'>
+        <a class="nav__link" href=''>Слайд-шоу</a>
+        </li>
+        
+    </ul>
+    
+  </div>
+</div>
+
+<div class='sub-nav__img nav__img'>
+  <picture>
+    <source media='(max-width: 960px)' srcset='/img/nav-menu/menu3.jpg, /img/nav-menu/menu3@2x.jpg x2'>
+    <source media='(max-width: 1366px)' srcset='/img/nav-menu/menu3-1024.jpg, /img/nav-menu/menu3-1024@2x.jpg x2'>
+    <source media='(max-width: 1920px)' srcset='/img/nav-menu/menu3-1366.jpg 1x, /img/nav-menu/menu3-1366@2x.jpg x2'>
+    <img src='/img/nav-menu/menu3.jpg' srcset='/img/nav-menu/menu3@2x.jpg 2x' alt=''>
+  </picture>
+</div>
+
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div>
+
+
+    <div class='nav__logo nav-logo'>
+      <a href="index.html">
+        <svg aria-hidden="true" width="150" height="47">
+          <use href="img/sprite.svg#logo"></use>
+        </svg>
+      </a>
+    </div>
+
+
+    <div class="nav__menu user-menu">
+      <ul class="user-menu__list">
+        <li class="user-menu__item">
+          <a class="user-menu__link user-menu__link--lk" href="">
+            <span class="user-menu__link--active">
+              <svg aria-hidden="true" width="11" height="8">
+                <use href="img/sprite.svg#check"></use>
+              </svg>
+            </span>
+            <svg aria-hidden="true" width="22" height="27">
+              <use href="img/sprite.svg#lk"></use>
+            </svg>
+          </a>
+        </li>
+
+        <li class="user-menu__item">
+          <a class="user-menu__link user-menu__link--cart" href="">
+            <span class="user-menu__link--active">70</span>
+            <svg aria-hidden="true" width="21" height="28">
+              <use href="img/sprite.svg#cart"></use>
+            </svg>
+          </a>
+        </li>
+
+        <li class="user-menu__item user-menu__item--phone">
+          <a class="user-menu__link user-menu__link--phone" href="">
+            <svg aria-hidden="true" width="28" height="28">
+              <use href="img/sprite.svg#phone"></use>
+            </svg>
+          </a>
+        </li>
+
+        <li class="user-menu__item user-menu__item--button-top">
+          <button class="user-menu__button-top button-top button" type="button" aria-label="Наверх">
+            <svg aria-hidden="true" width="24" height="24">
+              <use href="img/sprite.svg#arrow-top"></use>
+            </svg>
+          </button>
+        </li>
+      </ul>
+    </div>
+  </div>
+</header>
+
+  <main class="page-main">
+
+
+    <header class="main-header main-header__brif page-main__header main-header--stock main-header--border">
+      <div class="main-header__stock-wrapper container--right">
+        <div class="main-header__stock-sub-wrapper">
+          <div class="breadcrumbs main-header__breadcrumbs">
+            <a class="breadcrumbs__back" href="">
+              <svg aria-hidden="true" width="12" height="12">
+                <use href="img/sprite.svg#arrow"></use>
+              </svg>
+              Назад</a>
+            <ul class="breadcrumbs__list">
+              <li class="breadcrumbs__item">
+                <a class="breadcrumbs__link" href="">Главная</a>
+              </li>
+
+              <li class="breadcrumbs__item">
+                <a class="breadcrumbs__link" href="">Бриф</a>
+              </li>
+            </ul>
+          </div>
+          <div class="main-header__wrapper">
+            <h1 class="main-header__main-title">Заполнить бриф</h1>
+          </div>
+        </div>
+
+        <article class="mini-slider main-header__mini-slider">
+  <div class="mini-slider__button-wrapper">
+    <button class="mini-slider__button mini-slider__button--prev button" aria-label='Назад' type="button">
+      <svg aria-hidden="true" width="16" height="16">
+        <use href="img/sprite.svg#arrow"></use>
+      </svg>
+    </button>
+    <button class="mini-slider__button mini-slider__button--next button" aria-label='Вперед'
+      type="button">
+      <svg aria-hidden="true" width="16" height="16">
+        <use href="img/sprite.svg#arrow"></use>
+      </svg>
+    </button>
+  </div>
+
+  <ul class="mini-slider__list swiper-wrapper">
+    <li class="mini-slider__item swiper-slide">
+      <div class="mini-slider__img-wrapper">
+        <a href="">
+          <img src='img/mini-slider/photo1.jpg' srcset='img/mini-slider/photo1@2x.jpg 2x' alt=''>
+        </a>
+      </div>
+      <div class="mini-slider__wrapper">
+        <h2 class="mini-slider__small-title"><a href="">Акции</a></h2>
+        <h3 class="mini-slider__name"><a href="">Фотосессия Love Story со скидкой 25%. Заголовок не боле 2 строк. Далее
+          мнот... Фотосессия Love Story со скидкой 25%. Заголовок не боле 2 строк. Далее
+          мнот...</a></h3>
+          <small class="mini-slider__date date-text">Срок проведения: <span>до 20.05.2021</span></small>
+        <a class="mini-slider__more-link more-link" href="">
+          Подробнее
+          <div class="button__arrow-circle">
+  <svg class="button__arrow-circle--arrow"aria-hidden="true" width='43' height='16'>
+    <use href="img/sprite.svg#long-arrow"></use>
+  </svg>
+  <svg class="button__arrow-circle--circle"  aria-hidden="true" width='39' height='40'>
+    <use href="img/sprite.svg#circle"></use>
+  </svg>
+</div>
+
+        </a>
+      </div>
+    </li>
+
+    <li class="mini-slider__item swiper-slide">
+      <div class="mini-slider__img-wrapper">
+        <a href="">
+          <img src='img/mini-slider/photo1.jpg' srcset='img/mini-slider/photo1@2x.jpg 2x' alt=''>
+        </a>
+      </div>
+      <div class="mini-slider__wrapper">
+        <h2 class="mini-slider__small-title">Акции</h2>
+        <h3 class="mini-slider__name"><a href="">Фотосессия Love Story со скидкой 25%. Заголовок не боле 2 строк. Далее
+          мнот... Фотосессия Love Story со скидкой 25%. Заголовок не боле 2 строк. Далее
+          мнот...</a></h3>
+          <small class="mini-slider__date date-text">Срок проведения: <span>до 20.05.2021</span></small>
+        <a class="mini-slider__more-link more-link" href="">
+          Подробнее
+          <div class="button__arrow-circle">
+  <svg class="button__arrow-circle--arrow"aria-hidden="true" width='43' height='16'>
+    <use href="img/sprite.svg#long-arrow"></use>
+  </svg>
+  <svg class="button__arrow-circle--circle"  aria-hidden="true" width='39' height='40'>
+    <use href="img/sprite.svg#circle"></use>
+  </svg>
+</div>
+
+        </a>
+      </div>
+    </li>
+  </ul>
+
+
+</article>
+
+
+      </div>
+    </header>
+
+    <section class="brif__seo-section page-main__seo-section--brif container js-text-block">
+      <p class="seo-section__text js-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturien=t montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellente. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.  </p>
+      <p class="seo-section__text seo-section__text--mobile-hidden js-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturien=t montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellente. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturien=t montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellente. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturien=t montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellente.</p>
+
+      <a class="seo-section__more js-text-button" href="">Развернуть</a>
+    </section>
+
+    <section class="brif">
+      <div class="brif__wrapper container">
+
+
+      <h2 class="brif__title">Бриф по фотосъемке</h2>
+      <fieldset class="brif__fieldset">
+        <ul class="order-photo__list">
+          <li class="order-photo__item js-input-item">
+            <div class="text-input">
+              <label class="text-input__label">
+                <input class="text-input__input js-input" required type="text" name="firsrName">
+                <div class="text-input__placeholder">
+                  Имя*
+                </div>
+                <small class="text-input__small-title">Имя*</small>
+              </label>
+            </div>
+          </li>
+
+          <li class="order-photo__item js-input-item">
+            <div class="text-input">
+              <label class="text-input__label">
+                <input class="text-input__input js-input" required type="text" name="mail">
+                <div class="text-input__placeholder">
+                  E-mail*
+                </div>
+                <small class="text-input__small-title">E-mail*</small>
+              </label>
+            </div>
+          </li>
+
+          <li class="order-photo__item js-input-item">
+            <div class="text-input">
+              <label class="text-input__label">
+                <input class="text-input__input js-input" required type="tel" name="phone">
+                <div class="text-input__placeholder">
+                  Телефон*
+                </div>
+                <small class="text-input__small-title">Телефон*</small>
+              </label>
+            </div>
+          </li>
+
+        </ul>
+      </fieldset>
+
+      <fieldset class="brif__fieldset brif__fieldset--checkbox">
+        <h3 class="brif__legend">Что интересует?</h3>
+        <ul class="brif__checkbox-list">
+          <li class="checkbox__wrapper">
+            <input class="checkbox__input visually-hidden" type="checkbox" name="Образ невесты" id="checkbox-1"
+              checked>
+            <label class="checkbox__label" for="checkbox-1">Свадебная фотография</label>
+          </li>
+
+          <li class="checkbox__wrapper">
+            <input class="checkbox__input visually-hidden" type="checkbox" name="Репетиция свадебного образа"
+              id="checkbox-2">
+            <label class="checkbox__label" for="checkbox-2">Еще вид фотографии</label>
+          </li>
+
+          <li class="checkbox__wrapper">
+            <input class="checkbox__input visually-hidden" type="checkbox" name="Ранний выезд до 5 часов утра"
+              id="checkbox-3">
+            <label class="checkbox__label" for="checkbox-3">Еще вид фотографии</label>
+          </li>
+
+          <li class="checkbox__wrapper">
+            <input class="checkbox__input visually-hidden" type="checkbox" name="Трессы (дополнительные пряди волос)"
+              id="checkbox-4">
+            <label class="checkbox__label" for="checkbox-4">Еще вид фотографии</label>
+          </li>
+
+          <li class="checkbox__wrapper">
+            <input class="checkbox__input visually-hidden" type="checkbox" name="Трессы (дополнительные пряди волос)"
+              id="checkbox-5">
+            <label class="checkbox__label" for="checkbox-5">Еще вид фотографии</label>
+          </li>
+
+          <li class="checkbox__wrapper">
+            <input class="checkbox__input visually-hidden" type="checkbox" name="Трессы (дополнительные пряди волос)"
+              id="checkbox-6">
+            <label class="checkbox__label" for="checkbox-6">Еще вид фотографии</label>
+          </li>
+
+        </ul>
+
+      </fieldset>
+
+      <fieldset class="brif__fieldset brif__fieldset--comments">
+        <ul class="order-photo__list order-photo__list--comments">
+          <li class="order-photo__item order-photo__item--comments js-input-item">
+            <div class="order-photo__text-input--comments text-input">
+              <label class="text-input__label">
+                <input class="text-input__input js-input" required type="text">
+                <div class="text-input__placeholder">
+                  Комментарий
+                </div>
+                <small class="text-input__small-title">Комментарий</small>
+              </label>
+            </div>
+          </li>
+        </ul>
+      </fieldset>
+
+
+      <div class=" brif__select-file select-file">
+  <small>Прикрепленные фото</small>
+  <ul class="select-file__list">
+    <li class="select-file__item">
+      <button class="select-file__delete button" aria-label="Удалить фотографию" type="button">
+        <svg aria-hidden="true" width="15" height="15">
+          <use href="img/sprite.svg#close"></use>
+        </svg>
+      </button>
+      <img src="img/our-works/7.jpg" alt="">
+
+    </li>
+
+    <li class="select-file__item">
+      <button class="select-file__delete button" aria-label="Удалить фотографию" type="button">
+        <svg aria-hidden="true" width="15" height="15">
+          <use href="img/sprite.svg#close"></use>
+        </svg>
+      </button>
+      <img src="img/our-works/2.jpg" alt="">
+    </li>
+  </ul>
+  <label class="select-file__label">
+    Выбрать файл
+
+    <input class="visually-hidden" type="file">
+
+    <svg aria-hidden="true" width="17" height="16">
+      <use href="img/sprite.svg#clip"></use>
+    </svg>
+
+  </label>
+</div>
+
+
+      <div class="order-photo__controls">
+        <button class="order-photo__button button button--white-green  button-border" type="submit">
+          <div  class="button-border__wrapper">
+            <span class="button-border__left button-border__left--top"></span>
+            <span class="button-border__left button-border__left--bottom"></span>
+            <span class="button-border__right button-border__right--top"></span>
+            <span class="button-border__right button-border__right--bottom"></span>
+          </div>
+          Отправить
+        </button>
+        <p class="privacy-policy"><sup>*</sup> Поля, обязательные для заполнения. Отправляя данные с этого сайта, Вы<br>
+          соглашаетесь с <a href="">политикой конфиденциальности</a>
+        </p>
+      </div>
+
+    </div>
+    </section>
+  </main>
+  <footer class="page-footer">
+  <div class="page-footer__wrapper container">
+    <div class="page-footer__nav">
+      <div class="back-call page-footer__back-call">
+        <a class="back-call__phone" href="tel:79264285500">+7&nbsp;(926)&nbsp;428&nbsp;-&nbsp;55&nbsp;-&nbsp;00</a>
+        <a class="back-call__call more-link" href="">
+          Заказать звонок
+          <div class="button__arrow-circle">
+  <svg class="button__arrow-circle--arrow"aria-hidden="true" width='43' height='16'>
+    <use href="img/sprite.svg#long-arrow"></use>
+  </svg>
+  <svg class="button__arrow-circle--circle"  aria-hidden="true" width='39' height='40'>
+    <use href="img/sprite.svg#circle"></use>
+  </svg>
+</div>
+
+        </a>
+      </div>
+      <ul class="page-footer__list">
+        <li class="page-footer__item">
+          <a class="page-footer__link" href="">Фотосессии</a>
+        </li>
+        <li class="page-footer__item">
+          <a class="page-footer__link" href="">Портфолио</a>
+        </li>
+        <li class="page-footer__item">
+          <a class="page-footer__link" href="">Акции</a>
+        </li>
+        <li class="page-footer__item">
+          <a class="page-footer__link" href="">Блок</a>
+        </li>
+        <li class="page-footer__item">
+          <a class="page-footer__link" href="">Заполнить бриф</a>
+        </li>
+        <li class="page-footer__item">
+          <a class="page-footer__link" href="">Контакты</a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="page-footer__sub-wrapper">
+      <ul class="socials page-footer__socials">
+        <li class="socials__item">
+          <a class="socials__link" href="">
+            <svg aria-hidden="true" width="25" height="25">
+              <use href="img/sprite.svg#whatsapp"></use>
+            </svg>
+          </a>
+        </li>
+
+        <li class="socials__item">
+          <a class="socials__link" href="">
+            <svg aria-hidden="true" width="25" height="25">
+              <use href="img/sprite.svg#inst"></use>
+            </svg>
+          </a>
+        </li>
+
+        <li class="socials__item">
+          <a class="socials__link" href="">
+            <svg aria-hidden="true" width="13" height="25">
+              <use href="img/sprite.svg#fb"></use>
+            </svg>
+          </a>
+        </li>
+      </ul>
+
+      <a href="https://plastilin-art.ru/" class="copyright page-footer__copyright">
+        <p class="copyright__text">Разработка:&nbsp;</p>
+        <p class="copyright__link" ">Пластилин-арт</p>
+      </a>
+    </div>
+
+    <button class="page-footer__button-top button-top button button--green" type="button" aria-label="Наверх">
+      <svg aria-hidden="true" width="22" height="21">
+        <use href="img/sprite.svg#arrow-top"></use>
+      </svg>
+    </button>
+  </div>
+</footer>
+
+</body>
+
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+<script src="https://npmcdn.com/flatpickr/dist/l10n/ru.js"></script>
+<script src="js/jquery.event.move.js" type="text/javascript"></script>
+<script src="js/twentytwenty/jquery.twentytwenty.js" type="text/javascript"></script>
+<script src="js/main.js" type="module"></script>
+
+
+</html>
