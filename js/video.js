@@ -175,7 +175,7 @@ try {
 
     if (document.body.clientWidth < 1024) {
       videoElement.setAttribute('controls', true);
-      console.log(videoElement)
+
     }
 
   });

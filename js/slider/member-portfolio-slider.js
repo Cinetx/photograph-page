@@ -30,7 +30,7 @@ try {
 
     if (document.body.clientWidth < 1024 && memberPortfolioSlider.slides.length < 2) {
       memberPortfolioSlider.params.centeredSlides = true
-      console.log(memberPortfolioSlider.params.slidesPerView = 'auto')
+
     }
   })
 } catch {

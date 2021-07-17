@@ -13,7 +13,7 @@ $(function () {
   })
 
   document.body.addEventListener('mouseup', ()=>{
-    console.log('asd')
+
     document.body.classList.remove('page-body--user-select');
   })
 });

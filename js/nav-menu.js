@@ -1,12 +1,12 @@
 
 const menuElement = document.querySelector('.js-menu');
 
-// const menuElement = document.querySelector('.js-menu__wrapper');
+
 
 const burgerButtonElement = menuElement.querySelector('.js-burger');
 const menuWrapperElement = menuElement.querySelector('.js-menu__wrapper');
 const userMenuElement = document.querySelector('.user-menu');
-console.log(userMenuElement)
+
 burgerButtonElement.addEventListener('click', (evt) => {
   userMenuElement.classList.add('user-menu--hidden')
   evt.preventDefault();

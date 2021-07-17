@@ -69,7 +69,7 @@ servicesSliderContainerElement.forEach((sliderContainer) => {
    if (document.body.clientWidth < 1366) {
     servicesSlider.allowTouchMove = true;
    }
-   console.log(servicesSlider.params.simulateTouch)
+
   onSliderButtonClick(servicesSliderButtonNextElement, servicesCircleElement);
   onSliderButtonClick(servicesSliderButtonPrevElement, servicesCircleElement);
   onSlideChange(servicesSlider, servicesCircleElement, servicesSliderElement);
